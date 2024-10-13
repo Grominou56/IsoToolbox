@@ -8,7 +8,7 @@ body {
    * Formatting the header area
    */
   header {
-    background-color: #9fcf8c;
+    background-color: #d8b7bb;
     height: 100px;
     width: 100%;
     opacity: .9;
@@ -18,15 +18,15 @@ body {
     margin: 0;
     font-size: 1.7em;
     color: #fff;
-    /*
-    *text-transform: uppercase;
-    */
-    float: left;
+    float: center;
+    text-align: center;
   }
-  header h1.logo:hover {
-    color: #fff;
-    text-decoration: none;
+
+  header img {
+    width: auto;
+    height: 100px;
   }
+
   /*
    * Centering the body content
    */
@@ -74,5 +74,9 @@ body {
   }
   .menu li a {
     color: #444;
+    text-decoration: none;
+  }
+  .menu li a:hover {
+    color: #923838;
     text-decoration: none;
   }
