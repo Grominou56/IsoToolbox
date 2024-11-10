@@ -1,7 +1,17 @@
 {% extends "layout.html" %}
 {% block content %}
    <div class="about">
-     <h1>About us</h1>
-     <p>This is a portfolio site about anything that can be put in a portfolio.</p>
+     <h1>The Isotope toolbox team</h1>
+     <p>Members of the Genesis team.</p>
+     <div class="trombinoscope">
+      <div class="personne">
+        <img src="{{url_for('static', filename='Romain_Amiot.jpg')}}" alt="Romain Amiot">
+        <p>Romain Amiot</p>
+      </div>
+      <div class="personne">
+        <img src="{{url_for('static', filename='Arnauld_Vincon-laugier.png')}}" alt="Arnauld Vinçon Laugier">
+        <p>Arnauld Vinçon-Laugier</p>
+        </div>
+      </div>    
    </div>
  {% endblock %}

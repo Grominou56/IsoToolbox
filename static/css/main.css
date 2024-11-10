@@ -43,11 +43,29 @@ body {
   }
   div.about {
     padding: 10px 0 30px 0;
-    background-color: #E6E6FA;
+    background-color: #92b5e2;
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
   }
+  div.trombinoscope {
+    display: flex;
+    flex-wrap: wrap; /* Aligne les images sur plusieurs lignes si nécessaire */
+    padding: 0px 20px 20px 20px;
+    gap: 20px; /* Espace entre chaque photo */
+    justify-content: left; /* Centre les éléments horizontalement */
+    text-align: center;
+  }
+  div.personne p {
+    margin-top: 5px;
+    font-size: 1em;
+    color: #333;
+  }
+  div.personne img {
+    width: auto;
+    height: 200px;
+  }
+
   h2 {
     font-size: 3em;
     margin-top: 40px;
