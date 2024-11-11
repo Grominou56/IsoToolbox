@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+   <div class="tools">
+     <h1>Tools</h1>
+     <p>A set of tools to interpret isotopic data.</p>
+     <div class="toolslist">
+      <div class="tool">
+        <img src="{{url_for('static', filename='icon_equations.jpeg')}}" alt="icon">
+        <p>Apatite-water</p>
+        <p>fractionation equations</p>
+      </div>
+      <div class="tool">
+        <img src="{{url_for('static', filename='icon_env_data.jpeg')}}" alt="icon">
+        <p>Environmental data</p>
+      </div>
+      </div>    
+   </div>
+ {% endblock %}

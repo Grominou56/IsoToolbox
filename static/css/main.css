@@ -36,11 +36,14 @@ body {
   }
   div.home {
     padding: 10px 0 30px 0;
-    background-color: #E6E6FA;
+    background-color: #92b5e2;
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
   }
+  /*
+   * About page
+   */
   div.about {
     padding: 10px 0 30px 0;
     background-color: #92b5e2;
@@ -97,4 +100,26 @@ body {
   .menu li a:hover {
     color: #923838;
     text-decoration: none;
+  }
+  /*
+   * Tools page
+   */
+  div.tools {
+    padding: 10px 0 30px 0;
+    background-color: #92b5e2;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+  }
+  div.toolslist {
+    display: flex;
+    flex-wrap: wrap; /* Aligne les images sur plusieurs lignes si nécessaire */
+    padding: 0px 20px 20px 20px;
+    gap: 20px; /* Espace entre chaque photo */
+    justify-content: left; /* Centre les éléments horizontalement */
+    text-align: center;
+  }
+  div.tool img {
+    width: auto;
+    height: 200px;
   }
